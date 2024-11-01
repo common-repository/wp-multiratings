@@ -1,0 +1,65 @@
+.wp-mr-rating-div-container
+{
+	background-repeat:repeat-x;
+}
+.wp-mr-rating-div-container#internal_progress
+{
+float:left;
+}
+.wp-mr-rating-anchor-box 
+{
+display:none;
+}
+.wp-mr-rating-anchor-box a
+{
+	float:left;
+	cursor:pointer;
+	height:16px;
+	width:16px;
+	overflow:hidden;
+	margin:0px;
+	
+}
+.wp-mr-lock-green
+{
+	background-image:url(images/lock_green.png);
+	cursor:pointer;
+	width:16px;
+	height:16px;
+	margin:0px auto;
+	display:block;
+}
+.wp-mr-lock-red
+{
+	background-image:url(images/lock_red.png);
+	cursor:pointer;
+	width:16px;
+	height:16px;
+	margin:0px auto;
+	display:block;
+}
+
+.wp-mr-rating-summary
+{
+float:left;
+width:100%;
+margin-top:50x;
+}
+.wp-mr-rating-summary p
+{
+	margin:0px;
+}
+span[id^=spanRating]
+{
+	float:left;
+	margin-right:10px;
+	padding:5px;
+}
+span[id^=spanRating] img
+{
+	width:16px;
+	height:16px;
+	padding:0px;
+	background-color:transparent;
+	border:0px;
+}
